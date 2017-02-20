@@ -1,13 +1,13 @@
 CC = gcc
 CFLAGS = -g -Wall
 
-default: minLD
+default: loader
 
-minLD: minLD.o host_utils.o host_cmd.o
-	$(CC) $(CFLAGS) -o minLD minLD.o host_utils.o host_cmd.o
+loader: loader.o host_utils.o host_cmd.o
+	$(CC) $(CFLAGS) -o loader loader.o host_utils.o host_cmd.o
 
-minLD.o: minLD.c host_cmd.h host_utils.h
-	$(CC) $(CFLAGS) -c minLD.c
+loader.o: loader.c host_cmd.h host_utils.h
+	$(CC) $(CFLAGS) -c loader.c
 
 host_cmd.o: host_cmd.c host_cmd.h
 	$(CC) $(CFLAGS) -c host_cmd.c
