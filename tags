@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACK	bootloader/main.py	/^ACK = 0x79$/;"	kind:variable	line:20
+BAUD	bootloader/main.py	/^	BAUD = 38400$/;"	kind:variable	line:85
+CMD_ERASE	bootloader/main.py	/^CMD_ERASE = 0x43$/;"	kind:variable	line:15
+CMD_FULL	bootloader/main.py	/^def CMD_FULL(CMD):$/;"	kind:function	line:23
+CMD_GET	bootloader/main.py	/^CMD_GET = 0x00$/;"	kind:variable	line:9
+CMD_GETID	bootloader/main.py	/^CMD_GETID = 0x02$/;"	kind:variable	line:11
+CMD_GETVERS	bootloader/main.py	/^CMD_GETVERS = 0x01$/;"	kind:variable	line:10
+CMD_GO	bootloader/main.py	/^CMD_GO = 0x21$/;"	kind:variable	line:13
+CMD_INIT	bootloader/main.py	/^CMD_INIT = '\\x7F'$/;"	kind:variable	line:8
+CMD_READMEM	bootloader/main.py	/^CMD_READMEM = 0x11$/;"	kind:variable	line:12
+CMD_READ_PROTECT	bootloader/main.py	/^CMD_READ_PROTECT = 0x82$/;"	kind:variable	line:18
+CMD_READ_UNPROTECT	bootloader/main.py	/^CMD_READ_UNPROTECT = 0x92$/;"	kind:variable	line:19
+CMD_WRITEMEM	bootloader/main.py	/^CMD_WRITEMEM = 0x31$/;"	kind:variable	line:14
+CMD_WRITE_PROTECT	bootloader/main.py	/^CMD_WRITE_PROTECT = 0x63$/;"	kind:variable	line:16
+CMD_WRITE_UNPROTECT	bootloader/main.py	/^CMD_WRITE_UNPROTECT = 0x73$/;"	kind:variable	line:17
+Cmd	bootloader/main.py	/^from cmd import Cmd$/;"	kind:namespace	line:4
+DEBUG	bootloader/main.py	/^DEBUG = True$/;"	kind:variable	line:7
+DEVICE	bootloader/main.py	/^	DEVICE = '\/dev\/ttyUSB0'$/;"	kind:variable	line:84
+FILE	bootloader/main.py	/^	FILE = '..\/lab1\/build\/lab1.bin'$/;"	kind:variable	line:89
+NAK	bootloader/main.py	/^NAK = 0x1F$/;"	kind:variable	line:21
+PAGE_SZ	bootloader/main.py	/^	PAGE_SZ = 2048$/;"	kind:variable	line:90
+RETRIES	bootloader/main.py	/^	RETRIES = 3$/;"	kind:variable	line:87
+RUNNING	bootloader/main.py	/^	RUNNING = False$/;"	kind:variable	line:86
+TIMEOUT	bootloader/main.py	/^	TIMEOUT = 0.2$/;"	kind:variable	line:88
+byteToInt8	bootloader/main.py	/^def byteToInt8(byte):$/;"	kind:function	line:27
+clearReply	bootloader/main.py	/^	def clearReply(self):$/;"	kind:member	line:93
+cmdGetIDStr	bootloader/main.py	/^def cmdGetIDStr(x):$/;"	kind:function	line:76
+cmdGetStr	bootloader/main.py	/^def cmdGetStr(x):$/;"	kind:function	line:53
+cmdGetVersStr	bootloader/main.py	/^def cmdGetVersStr(x):$/;"	kind:function	line:69
+do_eraseMem	bootloader/main.py	/^	def do_eraseMem(self, args):$/;"	kind:member	line:528
+do_exit	bootloader/main.py	/^	def do_exit(self, args):$/;"	kind:member	line:765
+do_get	bootloader/main.py	/^	def do_get(self, args):$/;"	kind:member	line:192
+do_getID	bootloader/main.py	/^	def do_getID(self, args):$/;"	kind:member	line:253
+do_getVers	bootloader/main.py	/^	def do_getVers(self, args):$/;"	kind:member	line:223
+do_go	bootloader/main.py	/^	def do_go(self, args):$/;"	kind:member	line:365
+do_init	bootloader/main.py	/^	def do_init(self, args):$/;"	kind:member	line:161
+do_options	bootloader/main.py	/^	def do_options(self, args):$/;"	kind:member	line:718
+do_r	bootloader/main.py	/^	def do_r(self, args):$/;"	kind:member	line:150
+do_readMem	bootloader/main.py	/^	def do_readMem(self, args):$/;"	kind:member	line:285
+do_readP	bootloader/main.py	/^	def do_readP(self, args):$/;"	kind:member	line:662
+do_readU	bootloader/main.py	/^	def do_readU(self, args):$/;"	kind:member	line:690
+do_s	bootloader/main.py	/^	def do_s(self, args):$/;"	kind:member	line:146
+do_writeMem	bootloader/main.py	/^	def do_writeMem(self, args):$/;"	kind:member	line:423
+do_writeP	bootloader/main.py	/^	def do_writeP(self, args):$/;"	kind:member	line:558
+do_writeU	bootloader/main.py	/^	def do_writeU(self, args):$/;"	kind:member	line:634
+getopt	bootloader/minLD.py	/^import sys, getopt$/;"	kind:namespace	line:3
+inRange	bootloader/main.py	/^def inRange(addr, type):$/;"	kind:function	line:36
+isACK	bootloader/main.py	/^def isACK(reply):$/;"	kind:function	line:30
+isNAK	bootloader/main.py	/^def isNAK(reply):$/;"	kind:function	line:33
+main	bootloader/minLD.py	/^def main(argv):$/;"	kind:function	line:11
+main.py	bootloader/main.py	1;"	kind:file	line:1
+minLD.py	bootloader/minLD.py	1;"	kind:file	line:1
+myCmd	bootloader/main.py	/^class myCmd(Cmd):$/;"	kind:class	line:82
+prompt	bootloader/main.py	/^	prompt = myCmd()$/;"	kind:variable	line:775
+reply	bootloader/main.py	/^	reply = bytearray()$/;"	kind:variable	line:91
+reset	bootloader/main.py	/^	def reset(self):$/;"	kind:member	line:119
+sleep	bootloader/main.py	/^		from time import sleep$/;"	kind:namespace	line:120
+sys	bootloader/minLD.py	/^import sys, getopt$/;"	kind:namespace	line:3
+usage	bootloader/minLD.py	/^def usage():$/;"	kind:function	line:8
+waitACK	bootloader/main.py	/^	def waitACK(self):$/;"	kind:member	line:96

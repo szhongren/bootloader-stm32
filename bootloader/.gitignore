@@ -1,0 +1,12 @@
+pyserial*
+*.o
+*.d
+*.elf
+.vs/
+bootloader.pyproj
+bootloader.sln
+btldr
+chconf.h
+halconf.h
+mcuconf.h
+p442.mk
